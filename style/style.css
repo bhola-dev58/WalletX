@@ -1,0 +1,216 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    background-image: url('/digital_wallet/images/6NxGsO.jpg');
+
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+header {
+    background-color: none;
+    
+}
+
+nav {
+    color: turquoise;
+    text-align: center;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+nav a{
+    color: #3498db;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+        gap: 5px;
+    }
+
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;   
+    min-height: 36.7em;
+}
+
+
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+form {
+    background-color: #0fe54f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px #000000;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 92%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #3498db;
+    border-color: 2px solid #3498db;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0c4d78;
+    box-shadow: 0 2px 5px rgba(3, 74, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.5) solid #ffffff;
+
+}
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+    form {
+        padding: 20px;
+    }
+}
+
+section{
+    margin: 20px 0;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;   
+    min-height: 36.7em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    gap: 4rem;
+}
+
+.container .left-sec{
+    min-width: 20%;
+}
+input[type="button"] {
+    width: 100%;
+    background-color: #45db34;
+    border-color: 2px solid #34db66;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+input[type="button"]:hover {
+    background-color: #20780c;
+    box-shadow: 0 2px 5px rgba(3, 255, 37, 0.2);
+    border-color: rgba(0, 0, 0, 0.5) solid #ffffff;
+}   
+h2{
+    color: #ffffff;
+}
+.container .right-sec{
+    padding: 20px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 0 auto; }
+.para{
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #58f9ff;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    
+}
+
+footer {
+    background-color: #000000;
+    padding: 0;
+    margin: 89px 0 0 0;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
