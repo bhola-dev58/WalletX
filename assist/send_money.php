@@ -10,7 +10,7 @@ session_start();
     <title>Send Money</title>
     <link rel="stylesheet" href="/digital_wallet/style/style.css">
 </head>
-<body>
+<body style="background-image: url('/digital_wallet/images/6NxGsO.jpg');">
 
 <header>
     <nav>

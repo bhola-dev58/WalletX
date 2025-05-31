@@ -12,7 +12,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 30 days
     <title>Home</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
-<body>
+<body style="background-image: url('./images/6NxGsO.jpg');">
 
 <header>
     <nav>
