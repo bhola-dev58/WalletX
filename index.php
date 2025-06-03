@@ -10,6 +10,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 30 days
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <meta name="google-site-verification" content="8g74djTYGQ_GZ1gJ5Tw7VL3PFMVIA8K4w6wAymQeajA" />
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body style="background-image: url('./images/6NxGsO.jpg');">
